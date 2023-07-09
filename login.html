@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .mycard{
+            border: 1px solid red;
+            width: 350px;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.321);
+            background-color: white;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.289),rgba(0, 0, 255, 0.47)), url(https://wallpaperaccess.com/full/521099.jpg);
+            background-size: cover;
+        }
+
+        .myinput{
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+            /* border-radius: 5px; */
+            padding: 5px;
+        }
+
+        .mybtn{
+            display: block;
+            width: 100%;
+            background-color: rgba(186, 14, 117, 0.805);
+            padding: 7px;
+            color: white;
+            font-size: 16px;
+            border-radius: 20px;
+            border: none;
+        
+            
+        }
+
+        .form-title{
+
+            /* font-family: Montserrat; */
+            text-align: center;
+        }
+
+        *{
+            font-family: Montserrat;
+        }
+    </style>
+
+</head >
+
+     <body> 
+
+    <div class="mycard">
+
+        <i class="fa-sharp fa-solid fa-key" style="display: block; text-align: center;"></i>
+        <h2 class="form-title">Login Form</h2>
+
+        <form>
+
+            <label for="">Email</label>
+            <input class="myinput" type="email">
+            
+            <label for="">Password</label>
+            <input class="myinput" type="password">
+
+            <button class="mybtn">Login</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
